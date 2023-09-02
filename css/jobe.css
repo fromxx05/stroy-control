@@ -1,0 +1,131 @@
+.jobe__items h1{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0;
+}
+ 
+.jobe {
+    margin-top: 143px;
+}
+
+.jobe__items p{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 462px;
+    margin-top: 21px;
+}
+
+.jobe__items img{
+    margin-top: 60px;
+}
+
+.logot{
+    background-color: white;
+    border: 1px solid #DADEDF;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.logot h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    width: 7px;
+    margin-left: 15px;
+    margin-top: 10px;
+} 
+
+.jobe__item-1 h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.jobe__item-1 p{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 448px;
+    margin-top: 10px;
+}
+.jobe__item-1{
+    display: flex;
+    gap:32px;
+    margin-bottom: 30px;
+}
+
+.jobe__content{
+    display: flex;
+    gap:74px;
+}
+
+.jobe__item{
+  column-gap: 30px;
+}
+
+.jobe__btn-black{
+    cursor: pointer;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #212B31;
+    background: #212B31;
+    padding: 13px 25px;
+    margin-right: 16px;
+
+}
+
+.jobe__btn-black:hover{
+    color: #212B31;
+    background:  #FFF;
+}
+
+.jobe__btn-white{
+    cursor: pointer;
+    color: #212B31;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #DADEDF;
+    background: #FFF;
+    padding: 13px 25px;
+}
+
+@media screen and (max-width: 764px){
+    .jobe__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .jobe__items h1{
+        margin: 0 auto;
+    }
+
+    .jobe__items p{
+        margin-top: 35px;
+    }
+
+    .jobe__items img{
+        max-width: 100%;
+    }
+
+    .jobe__item-1{
+        gap:15px;
+    }
+
+   
+}

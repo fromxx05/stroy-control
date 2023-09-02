@@ -1,0 +1,139 @@
+.hope__title h2{
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px; 
+}
+
+.hope__title img{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    margin-left: 620px;
+    margin-bottom: -52px;   
+}
+
+.hope__title p{
+    color: #72787D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 857px;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.hope__item-img {
+    display: flex;
+    justify-content: center;
+}
+
+.hope__item h3{
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 19px;
+}
+
+.hope__item p{
+    color: #72787D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;   
+    max-width: 332px; 
+    margin-top: 11px;
+}
+
+.hope__content{
+    display: flex;
+    gap:33px;
+    margin-top: 48px;
+}
+
+.hope__bottom span{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px; 
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.hope__bottom{
+    display: flex;
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    gap:24px;
+    display: flex;
+    align-items: center;
+}
+
+.hope__bottom img{
+   margin: 0 auto;
+}
+
+.hope__bottom button{
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-flex;
+    padding: 13px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #DADEDF;
+    background: #FFF;
+    margin-left: 66px;
+}
+.bac{
+    background-color: #F6F8F9;
+    max-width: 1056px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+@media screen and (max-width: 764px){
+    .hope__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hope__title img{
+        max-width: 100%;
+        margin: 0 1300px -20px 230px;
+    }
+
+    .hope__title h2{
+        margin-top: 0;
+    }
+
+    .hope__bottom{
+        font-size: 8px;
+    }
+
+    .hope__bottom span{
+        font-size: 8px;
+        line-height: 0%;
+    }
+
+    .hope__bottom button{
+        margin-left: auto;
+        font-size: 8px;
+        padding: 6px 12px;
+    }
+}

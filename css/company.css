@@ -1,0 +1,139 @@
+.company__item1 h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.company__item1 img{
+    width: 22px;
+}
+
+.company__item1 h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 22px ;
+    margin-bottom: 10px;
+}
+
+.company__item2 h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 104px;
+}
+
+.company__item2 h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company__item3 h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.company__item3 h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company__item4 h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.company__item4 h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.company__content1{
+    display: flex;
+    gap:160px;
+}
+
+.border{
+    width: 1056px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #DADEDF;
+    margin-top: 160px;
+}
+
+.company__content h3{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.company__content p{
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text{
+    display: flex;
+    gap:439px;
+    margin-top: 32px;
+}
+
+.company__content{
+    margin-top: 250px;
+}
+
+@media screen and (max-width: 764px){
+
+    .company__content1{
+        flex-wrap: wrap;
+        gap:60px;
+
+    }
+
+    .company__content{
+      margin-top: 100px;
+    }
+
+    .border{
+        max-width: 100%;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .text{
+        flex-wrap: wrap;
+        gap:80px;
+    }
+}

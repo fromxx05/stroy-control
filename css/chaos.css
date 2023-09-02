@@ -1,0 +1,23 @@
+.chaos h2{
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;    
+}
+
+.chaos p{
+    color: #72787D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.chaos img{
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.chaos{
+    margin-top: 142px;
+}
